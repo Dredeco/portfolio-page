@@ -11,11 +11,11 @@ export function Skills() {
     return (
         <div id='skills' className="flex relative h-full px-5 lg:px-20 w-auto bg-gradient-to-b from-black to-green-700">
             
-            <ul className='flex relative flex-col h-full w-full justify-evenly bg-black bg-opacity-40 pt-20'>
+            <ul className='flex relative flex-col h-full w-full justify-evenly bg-black bg-opacity-40 pt-32'>
             <p className="flex relative sm:mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Habilidades</p>
                 {
                 skillItems.map((skills)=>(
-                   <li key={skills.name} className='lg:flex-row flex-col relative w-full flex items-center sm:py-4 lg:px-20'>
+                   <li key={skills.name} className='lg:flex-row flex-col relative w-full flex items-center sm:py-8 lg:px-20'>
                         <p className='relative lg:mr-16 lg:w-[12%] text-center lg:text-justify text-3xl py-4'>{skills.name}</p>
                         <img src={skills.path} className="w-full px-6 sm:hidden" />
                         <div key={skills.name} className="flex relative h-2 w-full">
