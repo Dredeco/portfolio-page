@@ -17,7 +17,7 @@ export function Skills() {
                 skillItems.map((skills)=>(
                    <li key={skills.name} className='lg:flex-row flex-col relative w-full flex items-center sm:py-4 px-20'>
                         <p className='relative lg:mr-16 lg:w-[12%] text-center lg:text-justify text-3xl py-4'>{skills.name}</p>
-                        <img src={skills.path} className="w-[40%] sm:hidden" />
+                        <img src={skills.path} className="w-50 sm:hidden" />
                         <div key={skills.name} className="flex relative h-2 w-full">
                             <div className={`h-full hidden sm:block bg-green-500 z-10 border border-green-800 origin-left ${skills.rate === 'Avançado' ? 'animate-animate_bar_100' : 'animate-animate_bar_50'}`} />
                             <ul className="absolute hidden sm:flex w-full justify-between left-0 top-4">
