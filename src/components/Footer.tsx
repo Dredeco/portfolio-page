@@ -12,7 +12,7 @@ export function Footer() {
     ];
 
     return(
-        <div className="flex absolute w-full h-28 px-20 border-t-2 justify-center">
+        <div className="flex relative w-full bg-black px-20 border-t-2 z-50">
             <div className="flex w-full h-auto items-center">
                 <ul className={`lg:flex lg:flex-row hidden relative flex-col w-full h-auto text-lg`}>
                     {

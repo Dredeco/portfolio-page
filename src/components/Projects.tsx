@@ -8,8 +8,8 @@ import Projeto6 from '../assets/Projeto6.png'
 export function Projects() {
 
     return (
-        <div id='projects' className="flex relative w-full h-screen min-h-[900px] snap-start bg-gradient-to-b from-green-700 to-black">
-            <div className="flex relative flex-col h-full w-full bg-black bg-opacity-40 pt-36 mx-20">
+        <div id='projects' className="flex relative w-full h-screen min-h-[900px] snap-start bg-gradient-to-b px-20 from-green-700 to-black">
+            <div className="flex relative flex-col h-full w-full bg-black bg-opacity-40 pt-36">
 
             <p className="flex relative mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Projetos</p>
 
