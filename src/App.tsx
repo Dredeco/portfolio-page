@@ -8,7 +8,7 @@ import { Skills } from "./components/Skills";
 
 export function App() {
   return (
-    <div className="relative max-w-[1920px] h-full left-0 top-0">
+    <div className="w-full h-full">
       <Header />
 
       <Home />
