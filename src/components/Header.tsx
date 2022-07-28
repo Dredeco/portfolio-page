@@ -38,7 +38,7 @@ export function Header() {
                 </ul>
 
                 {/* Social Menu */}
-                <ul className={`bg-black flex justify-center lg:justify-end lg:static absolute mt-[248px] lg:mt-0 border border-zinc-800 lg:border-none w-full left-0 lg:ml-0 transition-all duration-500 ${open ? 'top-20 ':'top-[-490px]'}`}>
+                <ul className={`flex bg-black justify-center lg:justify-end lg:static absolute mt-[248px] lg:mt-0 border border-zinc-800 lg:border-none w-screen left-0 lg:ml-0 transition-all duration-500 ${open ? 'top-20 ':'top-[-490px]'}`}>
                     {
                     socialLinks.map((link)=>(
                         <li key={link.name} className='relative text-center w-full lg:w-auto h-full text-xl font-bold'>

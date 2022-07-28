@@ -12,7 +12,7 @@ export function Footer() {
     ];
 
     return(
-        <div className="flex relative w-full bg-black px-20 border-t-2 z-50">
+        <div className="flex relative w-full bg-black px-20 lg:py-5 border-t-2 z-50">
             <div className="flex w-full h-auto items-center">
                 <ul className={`lg:flex lg:flex-row hidden relative flex-col w-full h-auto text-lg`}>
                     {
@@ -23,12 +23,12 @@ export function Footer() {
                     ))
                     }
                 </ul>
-                <div className="w-full">Todos os direitos reservados.</div>
+                <div className="w-full text-center">Todos os direitos reservados.</div>
                 <ul className={`flex w-full h-auto justify-end`}>
                     {
                     socialLinks.map((link)=>(
                         <li key={link.name} className='text-center px-8 text-xl'>
-                        <a href={link.link} className='hover:text-green-600 duration-500'><i className={link.name} /></a>
+                        <a target='_blank' href={link.link} className='hover:text-green-600 duration-500'><i className={link.name} /></a>
                         </li>
                     ))
                     }
