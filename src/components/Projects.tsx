@@ -8,13 +8,13 @@ import Projeto6 from '../assets/Projeto6.png'
 export function Projects() {
 
     return (
-        <div id='projects' className="flex relative w-full h-screen min-h-[900px] snap-start bg-gradient-to-b px-20 from-green-700 to-black">
+        <div id='projects' className="flex relative w-full h-screen min-h-[900px] snap-start bg-gradient-to-b px-5 lg:px-20 from-green-700 to-black">
             <div className="flex relative flex-col h-full w-full bg-black bg-opacity-40 pt-36">
 
-            <p className="flex relative mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Projetos</p>
+            <p className="flex relative lg:mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Projetos</p>
 
                 <div className="flex-row flex-wrap grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full py-10">
-                    <div className='flex items-center flex-col w-fit rounded-md bg-green-800 duration-500 hover:scale-150 hover:z-50'>
+                    <div className='flex items-center flex-col w-fit rounded-md bg-green-800 duration-500 hover:scale-125 hover:z-50'>
                         <img src={Projeto1} className="relative h-48 w-auto" />
                         <p className='relative text-center py-2'>Landing Page <br /> Ultilizando HTML, CSS e JavaScript</p>
                     </div>

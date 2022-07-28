@@ -2,13 +2,13 @@ import { Footer } from "./Footer";
 
 export function Contact() {
     let adressInfo =[
-        {name:'Endereço', info:'Rua Maestro Lourenço Soares, 209 - IPS - Campos dos Goytacazes / RJ'},
+        {name:'Endereço', info:'Rua Maestro Lourenço Soares - IPS - Campos dos Goytacazes / RJ'},
         {name:'Celular', info:'(22) 99797-1144'},
         {name: 'E-mail', info:'andrefersouza@gmail.com'},
     ];
 
     return (
-        <div id='contact' className="flex flex-col relative w-full h-screen max-h-[800px] bg-black">
+        <div id='contact' className="flex flex-col relative w-full h-screen min-h-[800px] bg-black">
             <p className="flex relative mx-16 text-4xl border-b-2 border-green-700 pb-3">Contato</p>
             <div className="w-full px-20">
                 <ul className="flex flex-col text-start text-lg w-full pt-20">
@@ -32,7 +32,7 @@ export function Contact() {
                 </div>
 
                 <input type='text' placeholder="E-mail" className="w-full my-10 text-black resize-none border-2 border-green-500 p-1"></input>
-                <textarea placeholder="Mensagem" className="w-full p-1 text-black resize-none border-2 border-green-500"></textarea>
+                <textarea placeholder="Mensagem" className="w-full p-1 h-40 text-black resize-none border-2 border-green-500"></textarea>
 
                 <button type="submit" className="w-20 h-10 bg-green-600 mt-10 rounded mb-2">Enviar</button>
             </div>

@@ -38,11 +38,11 @@ export function Header() {
                 </ul>
 
                 {/* Social Menu */}
-                <ul className={`flex bg-black justify-center lg:justify-end lg:static absolute mt-[248px] lg:mt-0 border border-zinc-800 lg:border-none w-screen left-0 lg:ml-0 transition-all duration-500 ${open ? 'top-20 ':'top-[-490px]'}`}>
+                <ul className={`flex bg-black justify-center lg:justify-end lg:static absolute mt-[248px] lg:mt-0 border border-zinc-800 lg:border-none w-full left-0 lg:ml-0 transition-all duration-500 ${open ? 'top-20 ':'top-[-490px]'}`}>
                     {
                     socialLinks.map((link)=>(
-                        <li key={link.name} className='relative text-center w-full lg:w-auto h-full text-xl font-bold'>
-                        <a target='_blank' href={link.link} className='relative flex hover:bg-green-600 w-full lg:w-auto h-full justify-around lg:justify-end py-3 lg:py-0 lg:px-3 lg:hover:bg-black lg:hover:text-green-600 duration-500'><i className={link.name} /></a>
+                        <li key={link.name} className='relative w-full h-full lg:w-auto text-xl font-bold'>
+                        <a target='_blank' href={link.link} className='relative justify-center flex lg:justify-end hover:bg-green-600 w-full h-full py-3 lg:py-0 lg:px-3 lg:hover:bg-black lg:hover:text-green-600 duration-500'><i className={link.name} /></a>
                         </li>
                     ))
                     }
