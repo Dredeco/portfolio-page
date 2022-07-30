@@ -8,7 +8,7 @@ export function Contact() {
     ];
 
     return (
-        <div id='contact' className="flex flex-col relative w-full h-screen min-h-[800px] bg-black">
+        <div id='contact' className="flex flex-col relative w-full h-screen min-h-[800px] bg-black sm:px-20">
             <p className="flex relative mx-4 sm:mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Contato</p>
             <div className="w-full px-5 lg:px-20">
                 <ul className="flex flex-col text-start text-lg w-full pt-20">
