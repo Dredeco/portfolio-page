@@ -22,35 +22,35 @@ export function Projects() {
                     </a>
 
                     <a target='' href='' className='flex justify-center'>
-                        <div className='flex items-center flex-col my-5 lg:my-0 mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 hover:scale-125 hover:z-50'>
+                        <div className='flex items-center flex-col my-5 lg:my-0 mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={Projeto2} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>Landing Page <br /> Criada com Vite no ReactJS utilizando Typescript e SASS</p>
                         </div>
                     </a>
 
                     <a target='' href='' className='my-5 xl:my-0 flex justify-center'>
-                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 hover:scale-125 hover:z-50'>
+                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={Projeto3} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>Landing Page <br /> Criada com Vite no ReactJS utilizando Typescript e SASS</p>
                         </div>
                     </a>
 
                     <a target='' href='' className='justify-center hidden my-5 lg:flex'>
-                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 hover:scale-125 hover:z-50'>
+                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={Projeto4} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>Landing Page <br /> Criada com Vite no ReactJS utilizando Typescript e SASS</p>
                         </div>
                     </a>
 
                     <a target='' href='' className='hidden my-5 xl:flex justify-center'>
-                        <div className='flex items-center flex-col lg:my-0 mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 hover:scale-125 hover:z-50'>
+                        <div className='flex items-center flex-col lg:my-0 mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={Projeto5} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>Landing Page <br /> Criada com Vite no ReactJS utilizando Typescript e SASS</p>
                         </div>
                     </a>
 
                     <a target='' href='' className='hidden my-5 xl:flex justify-center'>
-                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 hover:scale-125 hover:z-50'>
+                        <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={Projeto6} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>Landing Page <br /> Criada com Vite no ReactJS utilizando Typescript e SASS</p>
                         </div>
