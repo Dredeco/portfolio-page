@@ -20,7 +20,7 @@ export function Skills() {
                         <img src={skills.path} className="w-[50%] px-6 sm:hidden" />
                         <div key={skills.name} className="flex relative h-2 w-full">
                             <div className={`h-full hidden sm:block bg-green-500 z-10 border border-green-800 origin-left ${skills.rate === 'Avançado' ? 'animate-animate_bar_100' : 'animate-animate_bar_50'}`} />
-                            <ul className="absolute hidden sm:flex w-full justify-between left-0 top-4">
+                            <ul className="absolute hidden sm:flex w-full justify-between left-0 top-[1.1rem]">
                                 <div className="absolute flex w-[101%] -left-1 justify-between bottom-7 z-20">
                                     <div className="w-5 h-5 bg-green-500 rounded-full border border-green-700"/>
                                     <div className="w-5 h-5 bg-green-500 rounded-full border border-green-700"/>
