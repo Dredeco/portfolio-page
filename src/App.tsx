@@ -7,7 +7,7 @@ import { Skills } from "./components/Skills";
 
 export function App() {
   return (
-    <div className="w-full h-full">
+    <div className="w-screen h-full">
       <Header />
 
       <Home />

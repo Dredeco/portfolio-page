@@ -8,10 +8,10 @@ import Projeto6 from '../assets/Projeto6.png'
 export function Projects() {
 
     return (
-        <div id='projects' className="flex relative w-full h-full min-h-[1000px] sm:min-h-full snap-start bg-gradient-to-b sm:px-5 lg:px-20 from-green-700 to-black">
-            <div className="flex relative flex-col h-full w-full bg-black bg-opacity-40 sm:pt-20 lg:pt-36">
+            <div id='projects' className="relative pt-28 w-full h-full max-w-7xl flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:flex-row lg:pt-28">
+            <div className="flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm lg:mt-24 lg:mb-10 rounded-xl">
 
-            <p className="flex relative mx-4 sm:mx-16 text-4xl border-b-2 w-56 border-green-700 pb-3">Projetos</p>
+            <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
 
                 <div className="flex-row flex-wrap grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full my-5">
                     <a target='_blank' href='https://dredeco.github.io/Projeto-sass/' className='flex justify-center'>
