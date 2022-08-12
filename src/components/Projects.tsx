@@ -9,11 +9,11 @@ export function Projects() {
 
     return (
             <div id='projects' className="relative w-full h-full pt-24 flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
-            <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
+                <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
 
-            <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
+                <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
 
-                <div className="flex-row flex-wrap grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full my-5">
+                <div className="flex-row flex-wrap grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full py-6">
                     <a target='_blank' href='https://dredeco.github.io/Projeto-sass/' className='flex justify-center'>
                         <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-800 duration-500 sm:hover:scale-105 lg:hover:scale-125 hover:z-50'>
                             <img src={ProjetoSass} className="relative w-auto" />
