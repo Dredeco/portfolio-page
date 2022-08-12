@@ -8,8 +8,8 @@ import Projeto6 from '../assets/Projeto6.png'
 export function Projects() {
 
     return (
-            <div id='projects' className="relative pt-28 w-full h-full max-w-7xl flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:flex-row lg:pt-28">
-            <div className="flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm lg:mt-24 lg:mb-10 rounded-xl">
+            <div id='projects' className="relative w-full h-full pt-24 flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
+            <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
 
             <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
 

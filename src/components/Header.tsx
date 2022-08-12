@@ -32,7 +32,7 @@ export function Header() {
                         {
                         navLinks.map((link)=>(
                             <li key={link.name} className='relative px-2 text-xl w-full'>
-                                <a href={link.link} className='flex py-3 border lg:border-none border-zinc-800 justify-center w-full h-full bg-black hover:bg-green-700 lg:hover:bg-black lg:hover:text-green-600 duration-500'>{link.name}</a>
+                                <a onClick={()=>setOpen(!open)} href={link.link} className='flex py-3 border lg:border-none border-zinc-800 justify-center w-full h-full bg-black hover:bg-green-700 lg:hover:bg-black lg:hover:text-green-600 duration-500'>{link.name}</a>
                             </li>
                         ))
                         }

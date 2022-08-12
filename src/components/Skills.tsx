@@ -11,7 +11,7 @@ export function Skills() {
   ];
 
     return (
-        <div id='skills' className="relative w-full h-full flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
+        <div id='skills' className="relative w-full h-full pt-24 flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
             <img src={SkillsBg} alt="" className="hidden lg:block absolute h-full w-full left-0"/>
             <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
 
@@ -21,7 +21,7 @@ export function Skills() {
                 {
                 skillItems.map((skills)=>(
                    <li key={skills.name} className='flex-row flex relative w-[35%] sm:py-8 lg:w-full lg:px-20'>
-                        <p className='relative w-full py-4 flex flex-col text-2xl items-center lg:flex-wrap lg:mr-16 lg:w-[25%] lg:text-3xl'>
+                        <p className='relative w-full py-4 whitespace-nowrap flex flex-col text-2xl items-center flex-wrap lg:mr-16 lg:w-[25%] lg:text-3xl'>
                             {skills.name}
                             <img src={skills.path} className="w-[100%] lg:hidden" />
                         </p>
