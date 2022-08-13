@@ -13,7 +13,7 @@ export function Skills() {
     return (
         <div id='skills' className="relative w-full h-full pt-24 flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
             <img src={SkillsBg} alt="" className="hidden lg:block absolute h-full w-full left-0"/>
-            <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
+            <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm">
 
             <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Habilidades</p>
 

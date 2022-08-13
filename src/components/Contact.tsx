@@ -8,8 +8,8 @@ export function Contact() {
     ];
 
     return (
-        <div id='contact' className="relative w-full pt-24 h-full flex flex-col justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:pt-28">
-            <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
+        <div id='contact' className="relative w-full h-full flex flex-col justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%]">
+            <div className="max-w-7xl lg:pt-28 flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm rounded-xl">
             <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Contato</p>
                 
                 <div className="w-full px-5 lg:px-20">
