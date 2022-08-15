@@ -31,7 +31,7 @@ export function Projects() {
                             <img src={Projeto2} className="relative w-auto" />
                             <p className='relative w-full text-center py-2'>
                                 <h4 className='font-bold'>Calculadora</h4>
-                                Criada utilizando Vite, ReactJS, Typescript e SASS
+                                Criada utilizando Vite, ReactJS, JavaScript e SASS
                             </p> 
                         </div>
                     </a>

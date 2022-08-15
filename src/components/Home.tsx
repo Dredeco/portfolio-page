@@ -1,4 +1,5 @@
-import userImg from '../assets/userq.jpg'
+import userImg from '../assets/userq.jpg';
+import cv from "../assets/Andre Fernandes.pdf";
 
 export function Home() {
     return (
@@ -11,6 +12,7 @@ export function Home() {
                     Formado em Técnico de Informática pelo IFF e formando em Marketing pela UCAM.
                     Sou o tipo de pessoa curiosa, que gosta de entender como as coisas funcionam e sempre procurando por formas de facilitar/agilizar os processos rotineiros. Tenho um bom raciocínio logico e aprendo coisas novas com certa rapidez.
                 </span>
+                <a download href={cv} className='bg-gradient-to-r from-green-700 to-green-900 p-3 rounded-md mt-5'><i className='fa-solid fa-file pr-2'></i>Download CV</a>
             </div>
 
             <div className="relative h-full w-[100%] sm:w-[80%] lg:w-full flex justify-center items-center lg:mb-20">
