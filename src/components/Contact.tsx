@@ -8,7 +8,7 @@ export function Contact() {
         {name: 'E-mail', info:'andrefersouza@gmail.com'},
     ];
 
-    const sendEmail = (e) => {
+    const sendEmail = (e => {
         e.preventDefault();
     
         emailjs.sendForm('gmail', 'template_ptwinsd', e.target, 'RcD_dB2-94xJ045Fq')
@@ -17,8 +17,8 @@ export function Contact() {
           }, (error) => {
               console.log(error.text);
           });
-          e.target.reset()
-      };
+          e.target.reset();
+    });
 
     return (
         <div id='contact' className="relative w-full h-full flex flex-col justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%]">
