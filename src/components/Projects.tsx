@@ -13,7 +13,7 @@ export function Projects() {
                 <img src={SkillsBg} alt="" className="hidden rotate-180 lg:block absolute h-full w-full left-0"/>
                 <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm pt-28 lg:pt-32">
 
-                <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
+                <p className="flex mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
 
                 <div className="flex-row flex-wrap relative grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full py-6">
                     <a target='_blank' href='https://dredeco.github.io/Projeto-sass/' className='flex justify-center'>
