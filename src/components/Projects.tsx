@@ -15,7 +15,7 @@ export function Projects() {
 
                 <p className="flex relative mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
 
-                <div className="flex-row flex-wrap grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full py-6">
+                <div className="flex-row flex-wrap relative grid lg:grid-cols-2 xl:grid-cols-3 w-full content-around justify-items-center h-full py-6">
                     <a target='_blank' href='https://dredeco.github.io/Projeto-sass/' className='flex justify-center'>
                         <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-600 bg-opacity-40 duration-500 sm:hover:scale-105 hover:bg-opacity-100 hover:bg-green-900 lg:hover:scale-125 hover:z-50'>
                             <img src={ProjetoSass} className="relative w-auto" />
