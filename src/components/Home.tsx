@@ -3,7 +3,7 @@ import cv from "../assets/Andre Fernandes.pdf";
 
 export function Home() {
     return (
-        <div id='home' className="relative pt-28 w-full h-full max-w-7xl flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:flex-row lg:pt-48">
+        <div id='home' className="relative pt-28 w-full h-full max-w-6xl flex flex-col-reverse justify-center items-center sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%] lg:flex-row lg:pt-48">
 
             <div className="relative h-full text-center items-center lg:text-left -top-10 z-30 lg:w-full flex flex-col lg:items-start justify-center px-10">
                 <h1 className="text-xl p-2 bg-green-900 rounded-md lg:bg-transparent lg:p-0 sm:text-5xl">André Fernandes</h1>
@@ -16,7 +16,7 @@ export function Home() {
             </div>
 
             <div className="relative h-full w-[100%] sm:w-[80%] lg:w-full flex justify-center items-center lg:mb-20">
-                <img src={userImg} className="w-[70%] lg:w-[90%] h-full border-4 border-green-900 rounded-full object-cover z-20" />
+                <img src={userImg} className="w-[70%] lg:w-[70%] h-full border-4 border-green-900 rounded-full object-cover z-20" />
             </div>
 
         </div>

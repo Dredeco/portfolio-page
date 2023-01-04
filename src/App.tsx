@@ -9,13 +9,9 @@ export function App() {
   return (
     <div className="w-screen h-full">
       <Header />
-
       <Home />
-
       <Skills />
-
       <Projects />
-
       <Contact />
     </div>
   )
