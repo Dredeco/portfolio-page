@@ -17,7 +17,7 @@ export function Projects() {
                 <div className="grid lg:grid-cols-2 xl:grid-cols-3 w-full h-auto content-around justify-items-center py-6">
                 <a target='_blank' href='https://dredeco.github.io/Projeto_HC' className='flex py-6 justify-center'>
                         <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-600 bg-opacity-40 duration-500 sm:hover:scale-105 hover:bg-opacity-100 hover:bg-green-900 lg:hover:scale-125 hover:z-50'>
-                            <img src={ProjetoHC} className="relative h-full" />
+                            <img src={ProjetoHC} className="relative w-full" />
                             <p className='flex flex-col justify-center w-full text-center p-2'>
                                 <h4 className='font-bold'>Coins</h4>
                                 Criada utilizando ReactJS, JavaScript, Firebase e SASS
@@ -27,7 +27,7 @@ export function Projects() {
                     
                     <a target='_blank' href='https://dredeco.github.io/Projeto-sass/' className='flex py-6 justify-center'>
                         <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-600 bg-opacity-40 duration-500 sm:hover:scale-105 hover:bg-opacity-100 hover:bg-green-900 lg:hover:scale-125 hover:z-50'>
-                            <img src={ProjetoSass} className="relative h-full" />
+                            <img src={ProjetoSass} className="relative w-full" />
                             <p className='flex flex-col justify-center w-full min-h-[30%] text-center py-2'>
                                 <h4 className='font-bold'>Landing Page</h4>
                                 Criada utilizando ReactJS, Typescript e SASS
@@ -37,7 +37,7 @@ export function Projects() {
 
                     <a target='_blank' href='https://dredeco.github.io/calculadora/' className='flex py-6 justify-center'>
                         <div className='flex items-center flex-col mx-5 lg:w-[80%] justify-center rounded-md bg-green-600 bg-opacity-40 duration-500 sm:hover:scale-105 hover:bg-opacity-100 hover:bg-green-900 lg:hover:scale-125 hover:z-50'>
-                            <img src={Projeto2} className="relative h-full" />
+                            <img src={Projeto2} className="relative w-full" />
                             <p className='flex flex-col justify-center w-full min-h-[30%] text-center py-2'>
                                 <h4 className='font-bold'>Calculadora</h4>
                                 Criada utilizando ReactJS, JavaScript e SASS
