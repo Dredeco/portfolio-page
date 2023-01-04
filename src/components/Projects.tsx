@@ -3,7 +3,6 @@ import Projeto2 from '../assets/Projeto2.png'
 import NetflixClone from '../assets/Netflix-Clone.png'
 import Projeto4 from '../assets/Projeto4.png'
 import Projeto5 from '../assets/Projeto5.png'
-import Projeto6 from '../assets/Projeto6.png'
 import SkillsBg from '../assets/skills-background.jpg'
 import ProjetoHC from '../assets/projeto_hc.png'
 
@@ -11,7 +10,7 @@ export function Projects() {
 
     return (
             <div id='projects' className="relative w-full h-full flex flex-col-reverse justify-center items-center bg-black sm:px-20 lg:px-2 lg:left-1/2 lg:translate-x-[-50%]">
-                <img src={SkillsBg} alt="" className="hidden rotate-180 lg:block absolute h-full w-full left-0"/>
+                <img src={SkillsBg} alt="" className="hidden rotate-180 lg:block h-full w-full left-0"/>
                 <div className="max-w-7xl flex relative flex-col h-full w-full py-5 bg-black bg-opacity-40 border-x-2 border-zinc-900 border-opacity-80 backdrop-blur-sm pt-28 lg:pt-32">
 
                 <p className="flex mx-5 sm:mx-16 text-4xl border-b-2 w-56 border-green-500 pb-3 z-10">Projetos</p>
